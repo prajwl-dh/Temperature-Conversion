@@ -8,9 +8,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-//Declaration of funcions
-float userInputPart(void);
+//linking the header file
+#include "header.h"
 
 int main(int argc, const char * argv[])
 {
@@ -54,14 +53,3 @@ int main(int argc, const char * argv[])
     return 0;
 }
 //end of main
-
-float userInputPart(void)
-{
-    float FreezingPT = 32.0f;
-    float ScaleFactor = 5.0f / 9.0f;
-    float Fahrenheit, Celsius;
-    printf("Enter Fahrenheit temperature: ");
-    scanf("%f", &Fahrenheit);
-    Celsius = (Fahrenheit - FreezingPT) * ScaleFactor;
-    return Celsius;
-}

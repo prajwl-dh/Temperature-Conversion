@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BABCA3C9245A283D0000A3E9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BABCA3C8245A283D0000A3E9 /* main.c */; };
+		BABCA3D1245A2FFB0000A3E9 /* source.c in Sources */ = {isa = PBXBuildFile; fileRef = BABCA3D0245A2FFB0000A3E9 /* source.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BABCA3C5245A283D0000A3E9 /* Temperature Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Temperature Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABCA3C8245A283D0000A3E9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BABCA3CF245A2F8B0000A3E9 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		BABCA3D0245A2FFB0000A3E9 /* source.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = source.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BABCA3C8245A283D0000A3E9 /* main.c */,
+				BABCA3CF245A2F8B0000A3E9 /* header.h */,
+				BABCA3D0245A2FFB0000A3E9 /* source.c */,
 			);
 			path = "Temperature Conversion";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABCA3D1245A2FFB0000A3E9 /* source.c in Sources */,
 				BABCA3C9245A283D0000A3E9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
