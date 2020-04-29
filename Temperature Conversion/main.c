@@ -8,8 +8,15 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(int argc, const char * argv[])
+{
+    float FreezingPT = 32.0f;
+    float ScaleFactor = 5.0f / 9.0f;
+    float Fahrenheit, Celsius;
+    printf("Enter Fahrenheit temperature: ");
+    scanf("%f", &Fahrenheit);
+    Celsius = (Fahrenheit - FreezingPT) * ScaleFactor;
+    printf("Celsius equivalent: %.1f\n", Celsius);
+    
     return 0;
 }
