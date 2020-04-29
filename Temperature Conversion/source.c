@@ -8,9 +8,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
+//linking the header file
 #include "header.h"
 
-
+//writing funcion part
 float userInputPart(void)
 {
     float FreezingPT = 32.0f;
