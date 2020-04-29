@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 //linking the header file
 #include "header.h"
 
@@ -41,7 +42,7 @@ int main(int argc, const char * argv[])
         case 2:
             printf("Thanks for using the program\n");
             printf("Program closed\n");
-            return EXIT_SUCCESS;
+            return EXIT_SUCCESS; //force exit's the program
             
         default:
             printf("Wrong input!!!!!!\n");
