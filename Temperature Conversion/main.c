@@ -33,7 +33,7 @@ int main(int argc, const char * argv[])
     scanf("%d", &usrInp);
     
     switch (usrInp) {
-        case 1:
+        case 1: //using switch-case function
             //tempReturn gets the return float value from the function
             tempReturn = userInputPart();
             printf("Celsius equivalent: %.1f\n",tempReturn);
