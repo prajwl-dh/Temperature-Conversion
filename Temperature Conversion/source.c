@@ -22,4 +22,4 @@ float userInputPart(void)
     scanf("%f", &Fahrenheit);
     Celsius = (Fahrenheit - FreezingPT) * ScaleFactor;
     return Celsius;
-}
+}//end of userInputPart function
